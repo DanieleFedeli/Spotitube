@@ -1,0 +1,20 @@
+<% include ../static/header %>
+<div class='title container'>
+  <h2>Scegli con quali canzoni vuoi creare la playlist</h2>
+  <h4>I dati sono stati presi dal tuo account spotify</h4>
+  <form class=''>
+    <div class='spotify-lists'>
+
+    </div>
+    <div class='youtube-lists'>
+      <span class='placeholder'>
+        Stiamo ottenendo i tuoi dati, aspetta...
+        <img src='/images/ajax-loader.gif'></img>
+      </span>
+    </div>
+  </form>
+</div>
+
+<script>
+  youtubePlaylists();
+</script>
